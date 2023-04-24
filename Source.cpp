@@ -121,6 +121,8 @@ bool insert_file(std::string file_path, std::string str, int position) {
 	std::string date_path ="date.txt";
 	print_file(date_path);
 
+	// Создаем файл data.txt и записываем дату . И ниже выводин эту дату в формате ниже Решение в Фото.
+
 	//Открытие и считывание файла
 	unsigned int day = 24;
 	unsigned int month = 04 ;
